@@ -3,3 +3,9 @@ body {
   background-color: teal;
   text-align: center;
 }
+
+.container {
+  max-width: 600px;
+  background: white;
+  border: solid;
+}
