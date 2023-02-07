@@ -1,6 +1,6 @@
 body {
   font-family: monospace;
-  background-color: teal;
+  background-color: rgb(84, 173, 149, 0.8);
   text-align: center;
 }
 
@@ -11,4 +11,14 @@ body {
   padding: 30px;
   border-radius: 8px;
   line-height: 25px;
+}
+
+select {
+  padding: 10px 100px;
+  margin: 20px;
+  border-radius: 7px;
+}
+
+footer {
+  margin-top: 20px;
 }
