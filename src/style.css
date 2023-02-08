@@ -1,3 +1,7 @@
+:root {
+  --main-background-color: rgb(84, 173, 149);
+}
+
 body {
   font-family: monospace;
   background-color: rgb(84, 173, 149, 0.8);
@@ -33,9 +37,16 @@ a {
 .city {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
 .time {
+  margin-top: 12px;
   font-weight: 800;
   font-size: 20px;
+}
+
+.date {
+  font-size: 14px;
 }
