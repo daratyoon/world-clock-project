@@ -4,15 +4,6 @@ body {
   text-align: center;
 }
 
-.container {
-  max-width: 600px;
-  margin: 50px auto;
-  background: white;
-  padding: 30px;
-  border-radius: 8px;
-  line-height: 25px;
-}
-
 select {
   width: 100%;
   padding: 8px 0;
@@ -22,10 +13,19 @@ select {
 }
 
 footer {
-  margin-top: 20px;
-  font-size: 12px;
+  font-size: 14px;
+  margin: -20px;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  line-height: 25px;
 }
