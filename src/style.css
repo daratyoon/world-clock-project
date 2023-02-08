@@ -29,3 +29,13 @@ a {
   border-radius: 8px;
   line-height: 25px;
 }
+
+.city {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-weight: 800;
+  font-size: 20px;
+}
