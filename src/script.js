@@ -15,3 +15,30 @@ let tokyoTime = moment().tz("Asia/Tokyo");
 
 tokyoDateElement.innerHTML = tokyoTime.format("ddd MMM Do, YYYY");
 tokyoTimeElement.innerHTML = tokyoTime.format("HH:mm:ss:SS A");
+
+//Stockholm
+let stockholmElement = document.querySelector("#stockholm");
+let stockholmDateElement = stockholmElement.querySelector(".date");
+let stockholmTimeElement = stockholmElement.querySelector(".time");
+let stockholmTime = moment().tz("Europe/Stockholm");
+
+stockholmDateElement.innerHTML = stockholmTime.format("ddd MMM Do, YYYY");
+stockholmTimeElement.innerHTML = stockholmTime.format("HH:mm:ss:SS A");
+
+//Quito
+let galapagosElement = document.querySelector("#galapagos");
+let galapagosDateElement = galapagosElement.querySelector(".date");
+let galapagosTimeElement = galapagosElement.querySelector(".time");
+let galapagosTime = moment().tz("Pacific/Galapagos");
+
+galapagosDateElement.innerHTML = galapagosTime.format("ddd MMM Do, YYYY");
+galapagosTimeElement.innerHTML = galapagosTime.format("HH:mm:ss:SS A");
+
+//Sydney
+let sydneyElement = document.querySelector("#sydney");
+let sydneyDateElement = sydneyElement.querySelector(".date");
+let sydneyTimeElement = sydneyElement.querySelector(".time");
+let sydneyTime = moment().tz("Australia/Sydney");
+
+sydneyDateElement.innerHTML = sydneyTime.format("ddd MMM Do, YYYY");
+sydneyTimeElement.innerHTML = sydneyTime.format("HH:mm:ss:SS A");
