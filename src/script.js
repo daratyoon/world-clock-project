@@ -3,7 +3,7 @@ function updateTime() {
   let newYorkElement = document.querySelector("#new-york");
   let newYorkDateElement = newYorkElement.querySelector(".date");
   let newYorkTimeElement = newYorkElement.querySelector(".time");
-  let newYorkTime = moment().tz("America/New York");
+  let newYorkTime = moment().tz("America/New_York");
 
   newYorkDateElement.innerHTML = newYorkTime.format("ddd MMM Do, YYYY");
   newYorkTimeElement.innerHTML = newYorkTime.format(
