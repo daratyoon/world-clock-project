@@ -55,6 +55,14 @@ function updateTime() {
   );
 }
 
+function changeCity(event) {
+  let cityTimeZoneValue = event.target.value;
+  let cityTime = moment().tz(cityTimeZoneValue);
+  let cityName = cityTimeZoneValue.replace("_", " ").split("/")[1];
+  let citiesElement = document.querySelector("#cities");
+  citiesElement.innerHTML = cityTimeZoneValue;
+}
+
 setInterval(updateTime, 1000);
 
 let citiesSelectElement = document.querySelector("#city");
