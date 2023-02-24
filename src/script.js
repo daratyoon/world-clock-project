@@ -62,7 +62,7 @@ function changeCity(event) {
   let citiesElement = document.querySelector("#cities");
   citiesElement.innerHTML = ` <div class="city" id="new-york">
           <div>
-            <div class="new-york">${cityName}</div>
+            <h2>${cityName}</h2>
             <div class="date">${cityTime.format("MMM Do, YYYY")}</div>
           </div>
           <div class="time">${cityTime.format("HH:mm:ss")}</div>
