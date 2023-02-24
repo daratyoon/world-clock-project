@@ -60,7 +60,13 @@ function changeCity(event) {
   let cityTime = moment().tz(cityTimeZoneValue);
   let cityName = cityTimeZoneValue.replace("_", " ").split("/")[1];
   let citiesElement = document.querySelector("#cities");
-  citiesElement.innerHTML = cityTimeZoneValue;
+  citiesElement.innerHTML = ` <div class="city" id="new-york">
+          <div>
+            <div class="new-york">${cityName}</div>
+            <div class="date">${cityTime.format("MMM Do, YYYY")}</div>
+          </div>
+          <div class="time">${cityTime.format("HH:mm:ss")}</div>
+        </div>`;
 }
 
 setInterval(updateTime, 1000);
