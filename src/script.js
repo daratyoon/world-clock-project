@@ -65,7 +65,9 @@ function changeCity(event) {
             <h2>${cityName}</h2>
             <div class="date">${cityTime.format("MMM Do, YYYY")}</div>
           </div>
-          <div class="time">${cityTime.format("HH:mm:ss")}</div>
+          <div class="time">${cityTime.format(
+            "HH:mm:ss"
+          )} <small>${cityTime.format("A")}</small></div>
         </div>`;
 }
 
