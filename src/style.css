@@ -1,13 +1,16 @@
 :root {
-  --main-background-color: rgb(84, 173, 149);
   --link-color: rgb(211, 42, 0);
   --link-color-hover: rgb(252, 101, 68);
 }
 
 body {
   font-family: "Montserrat Alternates", sans-serif;
-  background-color: rgb(84, 173, 149, 0.8);
+  background-color: rgb(84, 173, 149, 0.7);
   text-align: center;
+}
+
+h1 {
+  font-weight: 600;
 }
 
 select {
@@ -16,6 +19,10 @@ select {
   margin: 20px 0;
   border-radius: 7px;
   text-align: center;
+}
+
+h3 {
+  font-weight: 600;
 }
 
 footer {
@@ -29,10 +36,6 @@ a {
 }
 a:hover {
   color: var(--link-color-hover);
-}
-
-h3 {
-  font-weight: 600;
 }
 
 .container {
@@ -62,4 +65,19 @@ h3 {
 
 .date {
   font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .time {
+    font-size: small;
+  }
+  footer {
+    font-size: 9px;
+  }
 }
