@@ -61,6 +61,7 @@ a:hover {
   margin-top: 12px;
   font-weight: 800;
   font-size: 20px;
+  line-height: 39px;
 }
 
 .date {
@@ -75,7 +76,8 @@ a:hover {
     font-size: 20px;
   }
   .time {
-    font-size: small;
+    font-size: 15px;
+    line-height: 37px;
   }
   footer {
     font-size: 9px;
