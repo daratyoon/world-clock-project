@@ -31,6 +31,10 @@ a:hover {
   color: var(--link-color-hover);
 }
 
+h3 {
+  font-weight: 600;
+}
+
 .container {
   max-width: 600px;
   margin: 50px auto;
