@@ -72,6 +72,10 @@ function changeCity(event) {
             "HH:mm:ss"
           )} <small>${cityTime.format("A")}</small></div>
         </div>`;
+
+  setTimeout(() => {
+    changeCity(event);
+  }, 1000);
 }
 
 setInterval(updateTime, 1000);
